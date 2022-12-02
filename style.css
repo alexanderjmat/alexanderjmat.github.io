@@ -134,8 +134,56 @@ img {
 
 .menu--about a {
     text-decoration: underline;
-    color: #273043
+    color: #273043;
 }
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+
+.about-me__img {
+    display: block;
+    height: fit-content;
+    width: 50%;
+}
+
+.about-me__img img {
+    height: 400px;
+    width: 400px;
+    margin-top: 1.25em;
+}
+
+/* .rectangle-block {
+    position: absolute;
+    z-index: 2;
+    height: 50%;
+    width: 5%;
+    background-color: black;
+} */
+
+.about-me__bio {
+    display: block;
+    flex-direction: column;
+    margin-left: 12em;
+    margin-top: 1em;
+}
+
+.about-me__header, .about-me__p {
+    margin-top: 1em;
+    width: 100%;
+}
+
+.about-me__header {
+    font-size: 32px;
+}
+.about-me__p {
+    font-size: 24px;
+}
+
+
 
 
 
@@ -145,6 +193,36 @@ img {
 .menu--contact a {
     text-decoration: underline;
     color: #273043
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 120;
+    background-color: darkgray;
+    margin-left: -6em;
+    margin-right: -6em;
+}
+
+.contact__header {
+    font-size: 4em;
+    color: #273043;
+}
+
+.contact__link {
+    text-align: rig;
+    color: #273043;
+    font-size: 3em;
+    margin-top: 1em;
+}
+
+.contact__img img {
+    margin-top: 1em;
+    height: 5em;
+    margin-top: 3em;
 }
 
 
