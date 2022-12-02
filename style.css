@@ -110,7 +110,10 @@ img {
 }
 
 .projects__project img {
-    max-width: 100%;
+    width: 85vw;
+    max-width: 85vw;
+    height: 80vh;
+    max-height: 80vh;
 }
 
 .projects__project h3 {
